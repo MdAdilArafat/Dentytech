@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+}
+#nav-part1 h3{
+  font-size: 17px;
+  font-weight: 500;
+  border: 1px solid #000;
+  padding: 3px 10px;
+  border-radius: 50px;
+}
+#nav-part1 i{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #000;
+    padding: 3px 8px;
+    border-radius: 50px;
+}
+#nav-part2 h1{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav-part3 button{
+    padding: 7px 12px;
+    font-size: 17px;
+    font-weight: 500;
+    background: white;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+#nav-part3 #btn{
+    background: orangered;
+    color: #fff;
+    border: none;
+   
+}
+#main> h1{
+
+    font-size: 120px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-40deg); 
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btn-bottom{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#btn-right{
+  position: absolute;  
+  bottom: 5%;
+  right: 3%;
+  font-size: 17px;
+  font-weight: 500;
+}
+#icon{
+    position: absolute;
+    bottom: 7%;
+    right: 1%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    
+}
